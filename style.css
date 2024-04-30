@@ -17,7 +17,7 @@ body {
   }
   
   .container {
-    max-width: 800px;
+    max-width: 50rem;
     margin-top: 9%;
     margin-left: 28%;
     text-align: center;
@@ -72,14 +72,15 @@ body {
   }
 
   .login{
-    margin-left: 1250px;
-    position: absolute;
+    margin: 7rem;
   }
 
   .logo {
     margin-left: 45px;
     font-size: 24px;
     font-weight: bold;
+    transition: height 2s, width 5s; /* , width 2s - devem ser separados por vírgula */
+    transition: all 2s;
   }
 
   nav a {
@@ -147,6 +148,8 @@ body {
     color: var(--corPreta);
     padding: 3%;
     background-color: #895353;
+    transition: height 2s, width 5s; /* , width 2s - devem ser separados por vírgula */
+    transition: all 2s;
 }
 
 .card:hover {
@@ -442,5 +445,14 @@ footer {
 }
 
 
+@media (max-width: 1250px) {
+    .cards-vinhos{
+        flex-direction: column;
+        margin-left: 60px;
+    }
 
+    .containerrr{
+        margin-right: 90px;
+    }
+}
 
