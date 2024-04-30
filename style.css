@@ -1,0 +1,394 @@
+:root {
+    --corBordas: #C5BDBC;
+    --corTitulos: #593D83;
+    --corPreta: #000000;
+    --corBranca: #FFFFFF;
+    --corLinks: #4F495A;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-image: url("galeria3.jpg");
+  }
+  
+  .container {
+    max-width: 800px;
+    margin-top: 18%;
+    margin-left: 28%;
+    text-align: center;
+    color: white;
+  }
+  .verificar:hover{
+    background-color: #B6ADAD;
+  }
+
+  .verificar{
+    height: 30px;
+    margin-top: 5%;
+  }
+
+  .bemvindo {
+    margin: 2%;
+  }
+
+  .text_idade{
+    margin: 2%;
+  }
+
+  .logo:hover{
+    color: #A266CC;
+  }
+
+  .links_cabecalho1:hover{
+    color: var(--corLinks);
+  }
+
+  .links_cabecalho2:hover{
+    color: var(--corLinks);
+  }
+
+  .login:hover{
+    color: var(--corLinks);
+  }
+
+  header {
+    background-color: #1E1B1B;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .login{
+    margin-left: 1250px;
+    position: absolute;
+  }
+
+  .logo {
+    margin-left: 45px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  nav a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #B6ADAD;
+    margin-left: 100px;
+  }
+
+.inputidade{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-left: 30%;
+}
+
+#idadeInput{
+    margin-bottom: 8px;
+}
+
+.navbar{
+    margin-bottom: 100px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.img-card{
+    width: 170px;
+    height: 250px;
+}
+
+.img-card_rose{
+    width: 240px;
+    height: 255px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px;
+    margin-right: 50px;
+    min-height: 450px;
+    border-radius: 4%;
+    padding: 3%;
+    background-color: #895353;
+}
+
+.titulo-vinho {
+    font-size: 22px;
+    color: var(--corPreta);
+    margin-top: 15px;
+}
+
+.card-text{
+    font-size: 20px;
+    color: var(--corPreta);
+    margin-top: 15px;
+}
+
+.cards-vinhos{
+    display: flex;
+    gap: 1%;
+    margin-right: 80px;
+}
+
+.conteudo:hover{
+    color: #036177;
+}
+
+a{
+    text-decoration: none;
+}
+
+.info-img{
+    max-width:350px;
+    max-height:500px;
+    width: auto;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.cont-info{
+    display: flex;
+    margin-top: 5%;
+    /* background-color: darkgrey; */
+}
+.produto{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 20px;
+    width: 50%;
+    margin-left: 5%;
+    color: #B6ADAD;
+}
+.cardapio_text{
+    margin-top: 3%;
+    font-size: 110%;
+}
+
+.cardapio_preco{
+    margin-top: 2%;
+    font-size: 20px;
+}
+
+.cardapio_venda{
+    margin-top: 2%;
+}
+
+.totalizar:hover{
+    background-color: #FF7000;
+}
+
+.btnCardapio:hover{
+    background-color: var(--corLinks);
+}
+
+.historia_tinto{
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    color: #B6ADAD;
+}
+
+.historia_text{
+    margin-top: 3%;
+    font-size: 110%;
+}
+
+#quantidade, #cupom{
+    width: 25%;
+}
+
+.totalizar{
+    border-radius: 30px;
+    border-style: none;
+    background-color: coral;
+    width: 15%;
+    height: 30px;
+    margin-top: 20px;
+}
+
+.btnCardapio{
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.btn_carrinho {
+    margin-top: 1%;
+    height: 20px;
+}
+
+.cupom_text{
+    margin-top: 1%;
+}
+
+.cartao-login{
+    display: flex;
+    flex-direction: column;
+    background-color: #1E1B1B;
+    width: 400px;
+    height: 210px;
+    align-items: center;
+    justify-content: center;
+    color: #B6ADAD;
+}
+
+.cont-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16%;
+    border-radius: 30%;
+}
+
+.usuario_text{
+    margin-top: 5%;
+}
+
+.usuario_text2{
+    margin-top: 2%;
+}
+.senha_text{
+    margin-top: 3%;
+}
+
+.senha_text2{
+    margin-top: 2%;
+}
+
+.btnEntrar:hover{
+    background-color: #B6ADAD;
+}
+
+.btnEntrar{
+    margin-top: 3%;
+}
+
+#user, #senha{
+    width: 200px;
+}
+
+.containerrr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+    padding: 5%;
+    color: #B6ADAD;
+    background-color: #1E1B1B;
+    border-radius: 10px;
+    margin-right: 118px;
+  }
+
+  .input-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 3%;
+  }
+
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+  }
+
+  .input-group input[type="text"],
+  .input-group input[type="email"],
+  .input-group textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .input-group textarea {
+    height: 50px;
+  }
+
+  .btn {
+    display: block;
+    margin-top: 5%;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .btn:hover {
+    background-color: #0056b3;
+  }
+
+footer {
+    background-color: #1E1B1B;
+    color: #B6ADAD;
+    padding: 1.9rem 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.containerr {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content {
+    text-align: left;
+}
+
+
+.left-content p {
+    margin: 0.3rem 0;
+}
+
+.left-content a {
+    font-weight: bold;
+}
+
+.left-content a:hover {
+    text-decoration: underline;
+}
+
+.right-content {
+    text-align: right;
+}
+
+.right-content p {
+    margin: 0;
+    font-style: italic;
+}
+
+
+
+
