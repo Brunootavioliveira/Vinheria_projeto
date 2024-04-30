@@ -2,17 +2,20 @@ let precoVinho1 = 129.99
 let precoVinho2 = 149.99
 let precoVinho3 = 189.99
 
-function verificarIdade() {
-    var idade = parseInt(document.getElementById('idadeInput').value);
-    if (idade >= 18) {
-      window.location.href = 'home.html';
-    } else {
-      alert("É preciso ser maior de idade para acessar a loja")
-    }
-  }
+document.getElementById("simBtn").addEventListener("click", function() {
+    window.location.href = "home.html";
+});
+
+document.getElementById("naoBtn").addEventListener("click", function() {
+    alert("É precisop ser maior de idade para acessar a loja");
+});
 
 function comprar(){
     alert('adicionado ao carrinho com sucesso')
+}
+
+function limitarCasasDecimais(numero, casasDecimais) {
+    return parseFloat(numero.toFixed(casasDecimais));
 }
 
 function precototal(){
@@ -22,9 +25,9 @@ function precototal(){
     let desc = ''
     if (cupom == 'FIAP2024'){
         total = total - (total * 0.1)
-        desc = ' Desconto de 10%'
+        desc = 'Desconto de 10%'
     }
-    resultado = document.getElementById('resultado-total').innerHTML = 'O total fica ' + total + 'R$'+ desc
+    resultadoLimitado = document.getElementById('resultado-total').innerHTML = 'O total fica ' + total + 'R$'+ ',com um ' + desc
 }
 function precototal2(){
     let qtd = document.getElementById('quantidade').value
@@ -35,7 +38,7 @@ function precototal2(){
         total = total - (total * 0.1)
         desc = ' Desconto de 10%'
     }
-    resultado = document.getElementById('resultado-total').innerHTML = 'O total fica ' + total + 'R$'+ desc
+    resultadoLimitado = document.getElementById('resultado-total').innerHTML = 'O total fica ' + total + 'R$'+ ',com um ' + desc
 }
 function precototal3(){
     let qtd = document.getElementById('quantidade').value
@@ -46,7 +49,7 @@ function precototal3(){
         total = total - (total * 0.1)
         desc = ' Desconto de 10%'
     }
-    resultado = document.getElementById('resultado-total').innerHTML = 'O total fica ' + total + 'R$'+ desc
+    resultadoLimitado = document.getElementById('resultado-total').innerHTML = 'O total fica ' + total + 'R$'+ ',com um ' + desc
 }
 
 function entrar(){
