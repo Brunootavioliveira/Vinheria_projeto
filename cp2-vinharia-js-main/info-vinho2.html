@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vinho1</title>
+</head>
+<body>
+  <header>         
+    <nav>      
+        <a class="logo" href="home.html">Vinheria</a>     
+        <a class="links_cabecalho1" href="home.html">Home</a>         
+        <a class="links_cabecalho2" href="sugestao.html">Sugestões de Receitas</a> 
+        <a class="login" href="login.html">Login</a>     
+    </nav>                 
+  </header>
+  <div class="cont-info">
+    <img class="info-img" src="cupom_fiap3.png" alt="">
+    <div class="produto">
+        <h2 class="cardapio_tinto">Vinho Branco</h2>
+        <p class="cardapio_text">Este vinho branco encanta os sentidos com sua luminosa tonalidade dourada e aromas frescos e frutados que lembram frutas tropicais maduras, como abacaxi e manga, complementados por notas cítricas de limão e grapefruit. Na boca, sua acidez vibrante traz vivacidade e frescor, equilibrada por uma textura suave e cremosa. Sabores de pêssego e melão se fundem harmoniosamente, enquanto nuances minerais conferem elegância ao longo de um final refrescante e persistente, convidando a mais um gole em uma experiência verdadeiramente cativante.</p>
+        <p class="cardapio_preco">Preço: 149,99R$</p>
+        <label class="cardapio_venda" for="quantidade">Quantos vinhos você gostaria de levar?</label>
+        <input class="btn_carrinho" type="number" name="quantidade" id="quantidade">
+        <label class="cupom_text" for="quantidade">Cupom de desconto</label>
+        <input class="btn_carrinho" type="text" name="cupom" id="cupom" placeholder="Escreva seu cupom">
+        <button class="totalizar" id="total" onclick="precototal3()">Preço total</button>
+        <p id="resultado-total"></p>
+        <br>
+        <div class="btnCartapioPai">
+          <button class="btnCardapio1" onclick="window.location.href = 'sugestao.html'">Ver sugestões</button>
+          <button class="btnCardapio1" id="comprar" onclick="comprar()">Comprar</button>
+        </div>
+    </div>
+  </div>
+  <div class="historia_tinto">
+    <h1 class="titulo_historia">Historia do vinho Branco</h1>
+    <p class="historia_text">A história do vinho branco é tão antiga quanto a própria civilização, e sua evolução ao longo dos séculos reflete as mudanças na cultura, tecnologia e gostos humanos. Aqui está uma visão geral:<br>
+      <br><h3>Antiguidade:</h3><br>
+      Origens Antigas: A produção de vinho branco remonta às civilizações antigas, onde as pessoas começaram a fermentar o suco de uvas brancas há milhares de anos.
+      Primeiras Técnicas: As técnicas iniciais provavelmente envolviam a fermentação do suco de uva em ânforas de barro ou outras vasilhas, sem controle preciso sobre a temperatura ou o processo.<br>
+      <br><h3>Produção e Estilos:</h3><br>
+      Variedades de Uvas: O vinho branco pode ser produzido a partir de uma variedade de uvas brancas, como Chardonnay, Sauvignon Blanc, Riesling, Pinot Grigio, Gewürztraminer e muitas outras.
+      Processo de Vinificação: O suco das uvas brancas é separado das cascas antes da fermentação, o que resulta em vinhos com cor mais clara e menos taninos do que os vinhos tintos.
+      Estilos Regionais: Diferentes regiões vinícolas ao redor do mundo produzem vinhos brancos distintos, cada um refletindo as características únicas do terroir local e as preferências dos produtores.
+      A história do vinho branco é uma jornada fascinante através do tempo, destacando a importância cultural, econômica e social dessa bebida milenar.</p>
+  </div>
+    <footer>
+      <div class="containerr">
+          <div class="left-content">
+              <p>Copyright © 2024 Vinheria. All rights reserved</p>
+          </div>
+          <div class="right-content">
+              <p>CP Fiap</p>
+          </div>
+      </div>
+    </footer>
+      <script src="script.js"></script>
+</body>
+</html>

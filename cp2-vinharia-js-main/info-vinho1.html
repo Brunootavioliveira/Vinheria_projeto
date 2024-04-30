@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vinho1</title>
+</head>
+<body>
+  <header>         
+    <nav>      
+        <a class="logo" href="home.html">Vinheria</a>     
+        <a class="links_cabecalho1" href="home.html">Home</a>         
+        <a class="links_cabecalho2" href="sugestao.html">Sugestões de Receitas</a> 
+        <a class="login" href="login.html">Login</a>     
+    </nav>                 
+  </header>
+  <div class="cont-info">
+    <img class="info-img" src="cupom_fiap3.png" alt="">
+    <div class="produto">
+        <h2 class="cardapio_tinto">Vinho Tinto</h2>
+        <p class="cardapio_text">Este vinho tinto encanta os sentidos com sua rica tonalidade rubi e aromas sedutores de frutas vermelhas maduras, como cerejas e amoras, complementadas por notas sutis de especiarias e carvalho. Na boca, sua textura macia e aveludada envolve o paladar, revelando camadas de sabores complexos, que vão desde frutas escuras até delicadas nuances de baunilha e tabaco. Seu final persistente e elegante convida a mais um gole, deixando uma memória duradoura de uma experiência verdadeiramente cativante.</p>
+        <p class="cardapio_preco">Preço: 129,99R$</p>
+        <label class="cardapio_venda" for="quantidade">Quantos vinhos você gostaria de levar?</label>
+        <input class="btn_carrinho" type="number" name="quantidade" id="quantidade">
+        <label class="cupom_text" for="quantidade">Cupom de desconto</label>
+        <input class="btn_carrinho" type="text" name="cupom" id="cupom" placeholder="Escreva seu cupom">
+        <button class="totalizar" id="total" onclick="precototal3()">Preço total</button>
+        <p id="resultado-total"></p>
+        <br>
+        <div class="btnCartapioPai">
+          <button class="btnCardapio1" onclick="window.location.href = 'sugestao.html'">Ver sugestões</button>
+          <button class="btnCardapio1" id="comprar" onclick="comprar()">Comprar</button>
+        </div>
+    </div>
+  </div>
+  <div class="historia_tinto">
+    <h1 class="titulo_historia">Historia do vinho Tinto</h1>
+    <p class="historia_text">A história do vinho tinto é tão rica e complexa quanto a bebida em si! Ela remonta a milhares de anos atrás, às primeiras civilizações que cultivavam uvas e descobriram o processo de fermentação. Aqui está uma visão geral dessa história fascinante:<br>
+      <br><h3>Antiguidade:</h3><br>
+      Civilizações Antigas: As primeiras evidências do cultivo de uvas e produção de vinho remontam a cerca de 6.000 a.C., no que hoje é a Geórgia e o Irã.
+      Mesopotâmia e Egito: Ambas as civilizações antigas produziam vinho e tinham deuses associados a ele.
+      Grécia e Roma Antigas: Os gregos e romanos expandiram a cultura do vinho, aprimorando técnicas de vinificação e até mesmo criando deuses específicos para representá-lo, como Dionísio (grego) e Baco (romano).<br>
+      <br><h3>Vinho Tinto Especificamente:</h3><br>
+      Produção: O vinho tinto é feito a partir de uvas escuras ou tintas. A cor vem da casca da uva, que é fermentada junto com o mosto.
+      Variedades de Uvas: Existem inúmeras variedades de uvas usadas na produção de vinho tinto, incluindo Cabernet Sauvignon, Merlot, Pinot Noir, Syrah (Shiraz), Malbec, entre outras.
+      Estilos: Os estilos de vinho tinto variam de leve e frutado a encorpado e tânico, dependendo da variedade de uva, terroir e técnicas de vinificação.
+      </p>
+  </div>
+    <footer>
+      <div class="containerr">
+          <div class="left-content">
+              <p>Copyright © 2024 Vinheria. All rights reserved</p>
+          </div>
+          <div class="right-content">
+              <p>CP Fiap</p>
+          </div>
+      </div>
+    </footer>
+      <script src="script.js"></script>
+</body>
+</html>

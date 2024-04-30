@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Vinho1</title>
+</head>
+<body>
+  <header>         
+    <nav>      
+        <a class="logo" href="home.html">Vinheria</a>     
+        <a class="links_cabecalho1" href="home.html">Home</a>         
+        <a class="links_cabecalho2" href="sugestao.html">Sugestões de Receitas</a> 
+        <a class="login" href="login.html">Login</a>     
+    </nav>                 
+  </header>
+  <div class="cont-info">
+    <img class="info-img" src="cupom_fiap3.png" alt="">
+    <div class="produto">
+        <h2 class="cardapio_tinto">Vinho Rosé</h2>
+        <p class="cardapio_text">Este vinho rosé seduz os sentidos com sua tonalidade delicada, que lembra a cor da casca de cebola, e aromas encantadores de frutas vermelhas frescas, como morangos e framboesas, complementados por notas florais sutis de rosas e violetas. Na boca, sua acidez refrescante é equilibrada por uma suave doçura, resultando em um perfil de sabor delicadamente frutado, com nuances de frutas silvestres e um toque cítrico. Sua textura leve e elegante convida a momentos de descontração, enquanto seu final refrescante deixa uma impressão duradoura de prazer e sofisticação.</p>
+        <p class="cardapio_preco">Preço: 189,99R$</p>
+        <label class="cardapio_venda" for="quantidade">Quantos vinhos você gostaria de levar?</label>
+        <input class="btn_carrinho" type="number" name="quantidade" id="quantidade">
+        <label class="cupom_text" for="quantidade">Cupom de desconto</label>
+        <input class="btn_carrinho" type="text" name="cupom" id="cupom" placeholder="Escreva seu cupom">
+        <button class="totalizar" id="total" onclick="precototal3()">Preço total</button>
+        <p id="resultado-total"></p>
+        <br>
+        <div class="btnCartapioPai">
+          <button class="btnCardapio1" onclick="window.location.href = 'sugestao.html'">Ver sugestões</button>
+          <button class="btnCardapio1" id="comprar" onclick="comprar()">Comprar</button>
+        </div>
+    </div>
+  </div>
+  <div class="historia_tinto">
+    <h1 class="titulo_historia">Historia do vinho Tinto</h1>
+    <p class="historia_text">A história do vinho rosé é igualmente interessante, embora talvez menos documentada do que a do vinho tinto ou branco. Aqui está uma visão geral:<br>
+      <br><h3>Antiguidade:</h3><br>
+      Origens Antigas: O vinho rosé remonta às civilizações antigas, onde as pessoas provavelmente produziam esse estilo de vinho por acidente, deixando o mosto das uvas tintas em contato com as cascas por um curto período de tempo durante a fermentação.
+      Técnicas Iniciais: As primeiras técnicas de vinificação nem sempre permitiam o controle preciso da cor do vinho, então muitos vinhos antigos provavelmente tinham tonalidades rosadas.<br>
+      <br><h3>Produção e Estilo:</h3><br>
+      Processo de Vinificação: O vinho rosé é geralmente produzido a partir de uvas tintas, mas a cor é mais leve porque o suco é deixado em contato com as cascas por um período mais curto do que seria para um vinho tinto. Isso resulta em uma extração mais suave de cor e taninos.
+      Variedades de Uvas: Muitas variedades de uvas tintas são usadas na produção de vinho rosé, incluindo Grenache, Syrah, Mourvèdre, Pinot Noir, Sangiovese e muitas outras.</p>
+  </div>
+    <footer>
+      <div class="containerr">
+          <div class="left-content">
+              <p>Copyright © 2024 Vinheria. All rights reserved</p>
+          </div>
+          <div class="right-content">
+              <p>CP Fiap</p>
+          </div>
+      </div>
+    </footer>
+      <script src="script.js"></script>
+</body>
+</html>
