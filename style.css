@@ -18,8 +18,9 @@ body {
   
   .container {
     max-width: 50rem;
-    margin-top: 9%;
+    margin-top: 190px;
     margin-left: 28%;
+    margin-right: 28%;
     text-align: center;
     color: #B6ADAD;
   }
@@ -95,6 +96,7 @@ body {
     margin-left: 30%;
     margin-right: 30%;
     margin-top: 1.8rem;
+    gap: 2rem;
     justify-content: space-between;
 }
 
@@ -183,7 +185,7 @@ a{
 
 .info-img{
     width: 330px;
-    height: auto;
+    height: 550px;
     margin-left: 15%;
     margin-top: 2%;
 }
@@ -191,6 +193,7 @@ a{
 .cont-info{
     display: flex;
     margin-top: 5%;
+    justify-content: space-between;
     /* background-color: darkgrey; */
 }
 .produto{
@@ -298,8 +301,9 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15%;
-    margin-right: 2%;
+    margin-top: 280px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .usuario_text{
     margin-top: 5%;
@@ -449,10 +453,11 @@ footer {
     .cards-vinhos{
         flex-direction: column;
         margin-left: 60px;
+        margin-right: 60px;
     }
 
     .containerrr{
-        margin-right: 90px;
+        margin-right: 67px;
     }
 }
 
