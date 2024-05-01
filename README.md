@@ -6,7 +6,6 @@
 https://brunootavioliveira.github.io/Vinheria_projeto/
 
 Neste Projeto fizemos um site de uma vinheria completa, contendo uma página inicial de verificação de idade, uma página Home com um formulário de contato, barra de navegação, e cartões para selecionar o tipo de vinho desejado. Ao clicar em um vinho temos uma página de informações sobre o vinho, podendo ver um pouco de sua descrição e história, além de poder escolher quanto você vai levar, inserir um cupom de desconto para 10% de desconto, um botão de compra, e um botão de sugestões de receitas. Ao clicar neste botão você verá uma página com uma área de texto onde poderá escrever o tipo de vinho que você gostaria de ver uma receita usando ele. E na barra de navegação temos links para voltar à página Home, ir para a página de receitas e fazer um login. No login temos uma tela experimental que possui um formulário onde caso você erre a senha ou o usuário, aparecerá um aviso de erro, caso acerte ambos (1234 como senha e usuário), você será redirecionado para a tela Home.
-
 Nosso site foi feito usando diversas funções para deixar o código mais funcional, bonito, e responsivo para diversas telas, além de animações e transições para tornar o site mais dinâmico. Decidimos utilizar um único arquivo script para todas as funções permitidas, e dividimos o CSS em dois, um para as páginas no geral, e outro para a página de receitas. Todas as imagens utilizadas estão salvas no repositório.
 
 ## Layout mobile
