@@ -7,6 +7,22 @@
     background-image: url("galeria3.jpg");
   }
   
+  .logo:hover{
+    color: #890C00;
+  }
+
+  .links_cabecalho1:hover{
+    color: var(--corLinks);
+  }
+
+  .links_cabecalho2:hover{
+    color: var(--corLinks);
+  }
+
+  .login:hover{
+    color: var(--corLinks);
+  }
+
   header {
     background-color: #1E1B1B;
     padding: 2rem 0;
@@ -15,14 +31,14 @@
     align-items: center;
   }
 
-  .login{
-    margin: 7rem;
-  }
+  
 
   .logo {
     margin-left: 45px;
     font-size: 24px;
     font-weight: bold;
+    transition: height 2s, width 5s; /* , width 2s - devem ser separados por vírgula */
+    transition: all 2s;
   }
 
   nav a {
@@ -132,4 +148,18 @@
       margin-left: 55px;
       margin-top: 30px;
     }
+}
+
+@media (max-width: 1250px) {
+  .container {
+    max-width: 800px;
+    margin: 60px auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+  }
 }

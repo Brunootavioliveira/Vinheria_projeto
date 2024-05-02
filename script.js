@@ -7,7 +7,7 @@ document.getElementById("simBtn").addEventListener("click", function() {
 });
 
 document.getElementById("naoBtn").addEventListener("click", function() {
-    alert("É precisop ser maior de idade para acessar a loja");
+    alert("É preciso ser maior de idade para acessar a loja");
 });
 
 function comprar(){
