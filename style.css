@@ -455,20 +455,6 @@ footer {
     .containerrr{
         margin-right: 67px;
     }
-    .info-img{
-        position: absolute;
-        top: 40%;
-        left: 37%;
-        transform: translate(-50%, -50%);
-        height: 360px;
-        width: 220px;
-    }
-    .cont-info{
-        display: flex;
-        margin-top: 400px;
-        justify-content: center;
-        align-items: center;
-    }
     .produto{
         display: flex;
         flex-direction: column;
@@ -507,5 +493,9 @@ footer {
         height: 260px;
     }
 }
-
+@media (max-width: 915px) {
+    .info-img{
+        display: none;
+    }
+}
 
