@@ -72,9 +72,7 @@ body {
     align-items: center;
   }
 
-  .login{
-    margin: 7rem;
-  }
+  
 
   .logo {
     margin-left: 45px;
@@ -246,7 +244,7 @@ a{
     border-radius: 30px;
     border-style: none;
     background-color: coral;
-    width: 15%;
+    width: 100px;
     height: 30px;
     margin-top: 20px;
 }
@@ -289,7 +287,6 @@ a{
     flex-direction: column;
     background-color: #1E1B1B;
     width: 400px;
-    height: 210px;
     align-items: center;
     justify-content: center;
     color: #B6ADAD;
@@ -458,5 +455,57 @@ footer {
     .containerrr{
         margin-right: 67px;
     }
+    .info-img{
+        position: absolute;
+        top: 40%;
+        left: 37%;
+        transform: translate(-50%, -50%);
+        height: 360px;
+        width: 220px;
+    }
+    .cont-info{
+        display: flex;
+        margin-top: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+    .produto{
+        display: flex;
+        flex-direction: column;
+        padding: 15px;
+        margin: 20px;
+        width: 100%;
+    }
 }
+@media (max-width: 705px) {
+    .logo{
+        position: absolute;
+        top: 0rem;
+        margin-left: 60px;
+    }
+    header {
+        justify-content: center;
+        padding: 2rem;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-right: 90px;
+        margin-left: 20px;
+        
+    }
+    nav a {
+        margin-left: 55px;
+        margin-top: 30px;
+      }
+    .cartao-login{
+        display: flex;
+        flex-direction: column;
+        width: 310px;
+        height: 260px;
+    }
+}
+
 
